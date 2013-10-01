@@ -1,0 +1,14 @@
+	Options +FollowSymLinks
+	RewriteEngine on
+	
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+#	RewriteRule ^$ /accueil [R=301,L]
+	
+	RewriteRule ^/accueil$ /index.php [R=301,L]
+	RewriteRule ^/services$ /services.php [NC,R=301,L]
+	RewriteRule ^/societe$ /societe.php [NC,R=301,L]
+	RewriteRule ^/galerie$ /galerie.php [NC,R=301,L]
+	RewriteRule ^/qualite$ /qualite.php [NC,R=301,L]
+	RewriteRule ^/contact$ /contact.php [NC,R=301,L]

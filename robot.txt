@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /
+allow: /index.php
+allow: /services.php
+allow: /societe.php
+allow: /galerie.php
+allow: /qualite.php
+allow: /contact.php
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: ConveraCrawler
+Disallow: /
+
+User-agent: QuepasaCreep
+Disallow: /
+
+User-agent: Jetbot
+Disallow: /
+
+User-agent: TwengaBot
+Disallow: /
