@@ -7,7 +7,7 @@
 	
 	<body>
 		<!--Header-->
-		<?php include 'templates/header.php';?>
+		<?php $activeLink = "contact"; include 'templates/header.php';?>
 
 		<!--Content-->
 		<div class="content_container">

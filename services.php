@@ -8,7 +8,7 @@
 	
 	<body>
 		<!--Header-->
-		<?php include 'templates/header.php';?>
+		<?php $activeLink = "services"; include 'templates/header.php';?>
 
 		<!--Content-->
 		<div class="content_container">

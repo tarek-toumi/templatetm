@@ -60,6 +60,9 @@ ul#menu li {
 	display: inline;
 	margin-left: 10px;
 }
+ul#menu li.isactive {
+	border-bottom: 3px solid #294f94;
+}
 
 ul#menu li a {
 	text-decoration: none;
@@ -71,7 +74,7 @@ ul#menu li a {
 	padding: 4px;
 }
 
-ul#menu li a.active,ul#menu li a:hover {
+ul#menu li.notactive a.active,ul#menu li.notactive a:hover {
 	color: #211e1e;
 	/*---Rounded Corners---*/
 	-moz-border-radius: 10px;

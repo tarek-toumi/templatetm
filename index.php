@@ -10,7 +10,7 @@
 	
 	<body>
 		<!--Header-->
-		<?php include 'templates/header.php';?>
+		<?php $activeLink = "index"; include 'templates/header.php';?>
 
 		<!--Slider-->
 		<div class="slider_container">
