@@ -1,17 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" charset="UTF-8">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
-		<title>Tunimarine - Services</title>
-		<link type="text/css" href="styles/reset.css" rel="stylesheet" media="all" />
-		<link type="text/css" href="styles/text.css" rel="stylesheet" media="all" />
-		<link type="text/css" href="styles/960.css" rel="stylesheet" media="all" />
-		<link type="text/css" href="styles/style.css" rel="stylesheet" media="all" />
-		<link type="text/css" href="styles/services.css" rel="stylesheet" media="all" />
-		<link type="text/css" href="styles/jquery.bxslider.css" rel="stylesheet" />
-		
-		<script type="text/javascript" src="/script/jquery-1.8.2.min.js"></script>
-		<script type="text/javascript" src="/script/code.js"></script>
+		<title>Tunimarine - Galerie</title>
+		<?php include 'templates/includes.html';?>
 	</head>
 	
 	<body>
