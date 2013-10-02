@@ -79,27 +79,27 @@
 							</div>
 							<div class="soft_box">
 								<div class="image_container">
+									<img src="/images/logiciels/soft_topsolid.png" class="image_item" alt="Licence Topsolid" title="Licence Topsolid" />
+								</div>
+								<div class="soft_container">Licence Topsolid</div>
+							</div>
+							<div class="soft_box_third">
+								<div class="image_container">
 									<img src="/images/logiciels/soft_solidworks.png" class="image_item" alt="Licence Solidworks" title="Licence Solidworks" />
 								</div>
 								<div class="soft_container">Licence Solidworks</div>
 							</div>
-							<div class="soft_box">
+							<div class="soft_box_third">
 								<div class="image_container">
 									<img src="/images/logiciels/soft_catia.png" class="image_item" alt="Licence Catia V5" title="Licence Catia V5" />
 								</div>
 								<div class="soft_container">Licence Catia V5</div>
 							</div>
-							<div class="soft_box">
+							<div class="soft_box_third">
 								<div class="image_container">
 									<img src="/images/logiciels/soft_autocad.png" class="image_item" alt="Licence Autocad" title="Licence Autocad" />
 								</div>
 								<div class="soft_container">Licence Autocad</div>
-							</div>
-							<div class="soft_box_center">
-								<div class="image_container">
-									<img src="/images/logiciels/soft_topsolid.png" class="image_item" alt="Licence Topsolid" title="Licence Topsolid" />
-								</div>
-								<div class="soft_container">Licence Topsolid</div>
 							</div>
 						</div>
 					</div>

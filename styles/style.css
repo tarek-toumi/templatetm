@@ -114,13 +114,14 @@ ul#menu li a.active,ul#menu li a:hover {
 }
 /*======================CONTENT AREA==============================*/
 .col1 {
-	display: block;
-	width: 220px;
-	background-color: #fff;
-	padding: 10px 0 20px;
-	margin: 0 0 20px 0;
-	box-shadow: 5px 5px 3px #666666;
-	border-radius: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 3px #666666;
+    display: block;
+    height: 265px;
+    margin: 0 0 20px;
+    padding: 10px 0 20px;
+    width: 220px;
 }
 
 .col1 h2 {
@@ -138,6 +139,7 @@ ul#menu li a.active,ul#menu li a:hover {
 	font-size: 12px;
 	text-align: left;
 	padding: 0px 5px 0px 15px;
+	margin: 0;
 }
 
 .col1 img {
@@ -154,7 +156,7 @@ ul#menu li a.active,ul#menu li a:hover {
 
 .readMore a {
 	border: 1px solid #c6ccdc;
-	margin-left: 13px;
+	margin: 0 13px 13px 0;
 	padding: 3px 10px; /*for visual bg*/
 	width: auto;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
@@ -177,6 +179,7 @@ ul#menu li a.active,ul#menu li a:hover {
 	/* For IE 8 */
 	-ms-filter:
 		"progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	float: right;
 }
 /*============col2 - for second line of posts=========================*/
 .col2 {
@@ -368,4 +371,31 @@ ul.nav li {
 	background: url("/images/separator.png") no-repeat scroll center top rgba(0, 0, 0, 0);
     height: 40px;
     margin-top: 20px;
+}
+.prefix_full_width {
+	height: auto;
+    width: 100%;
+}
+.prefix_full_width .col3 {
+	width: 100%;
+}
+img.image_border_presentation {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #A3A3A3;
+    padding: 2px;
+}
+.container_12 .grid_4 ul.ul-grid_4{
+    color: #485F8C;
+    display: block;
+    margin-left: 10px;
+}
+.container_12 .grid_4.grid_center {
+	width: 480px;
+}
+.container_12 .grid_4.grid_center .col1 {
+	width: 460px;
+}
+.container_12 .grid_4.grid_center .col1 img {
+    height: 121px;
+    width: 440px;
 }

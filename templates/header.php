@@ -7,12 +7,12 @@
 				</div>
 				<div class="grid_9">
 					<ul id="menu">
-						<li><a href="/accueil">Accueil</a></li>
-						<li><a href="/services">Services</a></li>
-						<li><a href="/societe">Société</a></li>
-						<li><a href="/galerie">Galerie</a></li>
-						<li><a href="/qualite">Qualité</a></li>
-						<li><a href="/contact">Contact</a></li>
+						<li><a href="/index.php">Accueil</a></li>
+						<li><a href="/services.php">Services</a></li>
+						<li><a href="/societe.php">Société</a></li>
+						<li><a href="/galerie.php">Galerie</a></li>
+						<li><a href="/qualite.php">Qualité</a></li>
+						<li><a href="/contact.php">Contact</a></li>
 					</ul>
 				</div>
 			</div>

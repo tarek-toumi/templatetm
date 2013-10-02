@@ -58,9 +58,9 @@
 				<div class="grid_4_container">
 					<div class="grid_4">
 						<div class="col1">
-							<img src="images/img1.jpg" alt="image" />
+							<img src="/images/secteurs_acc.png" alt="image" />
 							<h2>Secteurs d'activités</h2>
-							<ul style="display: block; color: #485F8C;">
+							<ul class="ul-grid_4" style="display: block; color: #485F8C;">
 								<li style="margin-left: 20px;">Automobile</li>
 								<li style="margin-left: 20px;">Industrie marine</li>
 								<li style="margin-left: 20px;">Mobiliers et accessoires</li>
@@ -69,39 +69,24 @@
 							</ul>
 						</div>
 					</div>
-					<div class="grid_4">
+					<div class="grid_4 grid_center">
 						<div class="col1">
-							<img src="images/img2.jpg" alt="image" />
-							<h2>Business Heading2</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Aliquam tincidunt mi id libero egestas ut interdum nibh cursus.</p>
-							<div class="readMore">
-								<a href="#">Read More <b>></b></a>
-							</div>
-						</div>
-					</div>
-					<div class="grid_4">
-						<div class="col1">
-							<img src="images/img3.jpg" alt="image" />
-							<h2>Business Heading3</h2>
+							<img src="/images/nos_clients.png" alt="image" />
+							<h2>Nos clients</h2>
 							<p>
 								Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing
 								elit. Aliquam tincidunt mi id libero egestas ut interdum nibh
 								cursus.
 							</p>
-							<div class="readMore">
-								<a href="#">Read More <b>></b></a>
-							</div>
 						</div>
 					</div>
 					<div class="grid_4">
 						<div class="col1">
-							<img src="images/img4.jpg" alt="image" />
-							<h2>Business Heading4</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Aliquam tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+							<img src="/images/nosclients_acc.png" alt="image" />
+							<h2>Nos avantages</h2>
+							<p>Le Contrôle de la Qualité interne vérifie en permanence les procédés et les produits, conformément aux procédures certifiées.</p>
 							<div class="readMore">
-								<a href="#">Read More <b>></b></a>
+								<a href="/qualite.php">Savoir plus <b>></b></a>
 							</div>
 						</div>
 					</div>

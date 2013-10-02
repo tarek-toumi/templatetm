@@ -36,12 +36,12 @@
 .image_container .image_item {
     background-color: #FFFFFF;
     border: 1px solid #666666;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 2px 2px 2px 2px;
     box-shadow: 3px 3px 3px #666666;
     display: block;
     height: 40px;
     margin: 0 auto;
-    padding: 2px;
+    padding: 10px 2px;
 }
 
 .soft_container {
@@ -61,11 +61,21 @@
     width: 100%;
 }
 .soft_box {
-	float: left;
+    float: left;
+    height: 85px;
 }
 .soft_box_center {
     float: none;
     height: 70px;
     margin: 20px auto;
     width: 50%;
+}
+.soft_box_third .image_container {
+    width: 80px;
+}
+.soft_box_third .soft_container {
+    width: 185px;
+}
+.soft_box_third {
+	
 }
