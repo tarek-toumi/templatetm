@@ -3,6 +3,8 @@
 	<head>
 		<title>Tunimarine - Société</title>
 		<?php include 'templates/includes.html';?>
+		<link type="text/css" href="styles/services.css" rel="stylesheet" media="all" />
+		<link type="text/css" href="styles/societe.css" rel="stylesheet" media="all" />
 	</head>
 	
 	<body>
@@ -12,63 +14,42 @@
 		<!--Content-->
 		<div class="content_container">
 			<div class="container_12">
-				<!-- rightContainer-->
-				<div class="prefix_6">
+				<div class="prefix_full_width">
 					<div class="grid_5">
 						<div class="col3">
-							<h2>Moyens humains</h2>
-							<p><strong>TUNIMARINE</strong> possède une structure capable de répondre à vos 
-							attentes en prenant en compte les enjeux du marché européen.<br />
-							Notre main d’&oelig;uvre qualifiée, sensibilisée à la qualité, est à votre service 
-							pour la réalisation de vos besoins propres.</p>
-							<img src="/images/moyens_humains.png" border="0" alt="moyens humain" title="Moyens humains" width="150" id="img_moyens_humains" style="border: 0px none; margin-bottom: 20px; float: left; margin-right: 50px; margin-top: 5px;">
-							<p>La grande souplesse au niveau des horaires de travail nous permet de répondre à vos commandes les plus urgentes.</p>
+							<h2 class="rotate">Croissance de l'activité de TUNIMARINE</h2>
+							<div class="histogram_item" style="margin-left: 500px;">
+								<span class="histogram_year">2013</span>
+								<span class="histogram_label toolongtext">Mise en place de la démarche assurance qualité</span>
+							</div>
+							<div class="histogram_item" style="margin-left: 400px;">
+								<span class="histogram_year">2012</span>
+								<span class="histogram_label">Nouvelle implantation</span>
+							</div>
+							<div class="histogram_item" style="margin-left: 300px;">
+								<span class="histogram_year">2011</span>
+								<span class="histogram_label">Ajout de l'activité de fonderie</span>
+							</div>
+							<div class="histogram_item" style="margin-left: 200px;">
+								<span class="histogram_year">2010</span>
+								<span class="histogram_label">Mécanique / Usinage</span>
+							</div>
+							<div class="histogram_item" style="margin-left: 100px;">
+								<span class="histogram_year">2009</span>
+								<span class="histogram_label toolongtext">Entrée en production : mécanique</span>
+							</div>
+							<div class="histogram_item">
+								<span class="histogram_year">2008</span>
+								<span class="histogram_label">Création</span>
+							</div>
 						</div>
 					</div>
 				</div>
-				<!-- rightContainer-->
-				<div class="prefix_6">
+				<div class="prefix_full_width">
 					<div class="grid_5">
 						<div class="col3">
-							<h2>Moyens logiciels</h2>
-							<p><strong>TUNIMARINE</strong> est une Société totalement exportatrice. 
-							Son domaine d'application est la fabrication des pièces mécaniques pour la 
-							marine, l'aéronautique et l'industrie. <br> Fraisage, tournage, découpage, 
-							tôle (presse ou laser), découpe fil, fonderie. <br> 
-							Notre but est d'atteindre l'excellence dans les domaines de la qualité 
-							des délais et de la traçabilité qui sont vos exigences.</p>
-						</div>
-					</div>
-				</div>
-				<!-- rightContainer-->
-				<div class="prefix_6">
-					<div class="grid_5">
-						<div class="col3">
-							<h2>Moyens de production</h2>
-							<ul>
-								<li>
-									Un centre d’usinage (9000Trs-X1000-Y530-Z630)
-								</li>
-								<li>
-									Un tour à commande numérique (4500Trs-Max Bosh Ø52 –Z600)
-								</li>
-								<li>
-									Parc classique (fraiseuse-tour-perceuse)
-								</li>
-								<li>
-									Four de fusion électrique
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!-- rightContainer-->
-				<div class="prefix_6">
-					<div class="grid_5">
-						<div class="col3">
-							<center>
-								<img border="0" title="Moyens de production" alt="Moyens de production" src="/images/moyens_production.png">
-							</center>
+							<h2>Nos partenaires</h2>
+							<p>Découpe Lazer / Soudures / Traitement de surface : Chromage-Zinguage-Galvanisation-Peinture époxy-traitement cataphorèse.</p>
 						</div>
 					</div>
 				</div>

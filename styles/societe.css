@@ -1,0 +1,31 @@
+.histogram_item {
+	background: url("/images/histogram.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 85px;
+    width: 380px;
+}
+.histogram_item span {
+    display: block;
+    float: left;
+    font-weight: bold;
+}
+.histogram_item .histogram_year{
+    color: #FFFFFF;
+    padding: 30px 0 0 22px;
+    width: 70px;
+    font-size: 18px;
+}
+.histogram_item .histogram_label{
+    color: #902C2A;
+    padding: 30px 0 0;
+    text-align: center;
+    width: 226px;
+    font-size: 16px;
+}
+.histogram_item .histogram_label.toolongtext{
+    padding: 18px 0 0;
+}
+h2.rotate {	
+	transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
+}
