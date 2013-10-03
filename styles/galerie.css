@@ -3,10 +3,12 @@
 }
 div.galeriecontainer {
     background: none repeat scroll 0 0 rgba(80, 80, 80, 0.3);
+    border: 2px solid #333333;
+    box-shadow: 5px 5px 5px #666666;
     float: left;
     height: 310px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 25px;
     text-align: left;
     width: 546px;
 }
