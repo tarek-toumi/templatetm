@@ -3,6 +3,10 @@
 	<head>
 		<title>Tunimarine - Contact</title>
 		<?php include 'templates/includes.html';?>
+		<link type="text/css" href="styles/services.css" rel="stylesheet" media="all" />
+		<link type="text/css" href="styles/contact.css" rel="stylesheet" media="all" />
+    	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=fr-FR"></script>
+    	<script type="text/javascript" src="/script/contact.js"></script>
 	</head>
 	
 	<body>
@@ -16,13 +20,18 @@
 				<div class="prefix_6">
 					<div class="grid_5">
 						<div class="col3">
-							<h2>Moyens humains</h2>
-							<p><strong>TUNIMARINE</strong> possède une structure capable de répondre à vos 
-							attentes en prenant en compte les enjeux du marché européen.<br />
-							Notre main d’&oelig;uvre qualifiée, sensibilisée à la qualité, est à votre service 
-							pour la réalisation de vos besoins propres.</p>
-							<img src="/images/moyens_humains.png" border="0" alt="moyens humain" title="Moyens humains" width="150" id="img_moyens_humains" style="border: 0px none; margin-bottom: 20px; float: left; margin-right: 50px; margin-top: 5px;">
-							<p>La grande souplesse au niveau des horaires de travail nous permet de répondre à vos commandes les plus urgentes.</p>
+							<h2>Tunimarine Contact</h2>
+							<p>
+								<strong>Adresse:</strong> Zone Industrielle Hergla.<br />
+								<strong>Code postal:</strong> 4012.<br />
+								<strong>Ville:</strong> Sousse.<br />
+								<strong>Pays:</strong> Tunisie.<br />
+								<strong>Téléphone:</strong> +216 73 25 13 14.<br />
+								<strong>Téléphone:</strong> +216 26 48 08 68.<br />
+								<strong>Fax:</strong> +216 73 25 17 26.<br />
+								<strong>Email:</strong> <a href="mailto:info@tunimarine.com">info@tunimarine.com</a>.<br />
+								<strong>Site Web:</strong> <a target="_blank" href="http://www.tunimarine.com"> http://www.tunimarine.com </a>.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -30,45 +39,53 @@
 				<div class="prefix_6">
 					<div class="grid_5">
 						<div class="col3">
-							<h2>Moyens logiciels</h2>
-							<p><strong>TUNIMARINE</strong> est une Société totalement exportatrice. 
-							Son domaine d'application est la fabrication des pièces mécaniques pour la 
-							marine, l'aéronautique et l'industrie. <br> Fraisage, tournage, découpage, 
-							tôle (presse ou laser), découpe fil, fonderie. <br> 
-							Notre but est d'atteindre l'excellence dans les domaines de la qualité 
-							des délais et de la traçabilité qui sont vos exigences.</p>
+							<h2>Nous envoyer un mail</h2>
+						</div>
+						<div class="col3 contact_item">
+							<label id="name_textmsg" for="contact_name">Votre nom: </label>
+							<input type="text" value="" size="30" id="contact_name" name="nom" class="inputbox">
+						</div>
+						<div class="col3 contact_item">
+							<label for="contact_email" id="email_textmsg">Votre e-mail: </label>
+							<input type="text" value="" size="30" id="contact_email" name="email" class="inputbox required validate-email">
+						</div>
+						<div class="col3 contact_item">
+							<label for="contact_subject" id="subject_textmsg">Objet: </label>
+							<input type="text" value="" size="30" id="contact_subject" name="subject" class="inputbox">
+						</div>
+						<div class="col3 contact_item">
+                            <label for="contact_text" id="contact_textmsg">Saisissez votre message:</label>
+                            <br>
+                            <textarea rows="8" cols="50" id="contact_text" name="message" class="inputbox required"></textarea>
+						</div>
+						<div class="col3 contact_item">
+                    		<input type="checkbox" value="1" id="contact_email_copy" name="email_copy">
+                    		<label for="contact_email_copy" id="label_email_copy">Recevoir une copie</label>
+                    		<button type="submit" class="button validate">Envoyer</button>
 						</div>
 					</div>
 				</div>
 				<!-- rightContainer-->
-				<div class="prefix_6">
+				<div class="prefix_fullwidth">
 					<div class="grid_5">
-						<div class="col3">
-							<h2>Moyens de production</h2>
-							<ul>
-								<li>
-									Un centre d’usinage (9000Trs-X1000-Y530-Z630)
-								</li>
-								<li>
-									Un tour à commande numérique (4500Trs-Max Bosh Ø52 –Z600)
-								</li>
-								<li>
-									Parc classique (fraiseuse-tour-perceuse)
-								</li>
-								<li>
-									Four de fusion électrique
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!-- rightContainer-->
-				<div class="prefix_6">
-					<div class="grid_5">
-						<div class="col3">
-							<center>
-								<img border="0" title="Moyens de production" alt="Moyens de production" src="/images/moyens_production.png">
-							</center>
+						<div class="col3" style="width: 100%;">
+							<h2>Tracez votre itinéraire</h2>
+						    <div id="map-container">
+						        <div id="map">
+						            <p>Veuillez patienter pendant le chargement de la carte...</p>
+						        </div>
+						    </div>
+						    <div id="destinationForm">
+					            <form action="" method="get" name="direction" id="direction">
+					                <label>Point de départ :</label>
+					                <input type="text" name="origin" id="origin" value="Tunimarine" disabled="disabled">
+					                <a href="javascript:void(0)" id="inverser"><img alt="Inverser" title="Inverser" src="/images/double-fleche.png" /></a>
+					                <label>Destination :</label>
+					                <input type="text" name="destination" id="destination">
+					                <input id="calculutin" type="button" value="Calculer l'itinéraire" onclick="javascript:calculate()">
+					            </form>
+					        </div>
+					       	<div id="panel"></div>
 						</div>
 					</div>
 				</div>

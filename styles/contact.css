@@ -1,0 +1,60 @@
+.prefix_6 .col3.contact_item {
+	padding: 2px 10px;
+}
+.prefix_6 .col3 label {
+	display: block;
+    float: left;
+    width: 100px;
+}
+.prefix_6 .col3 label#contact_textmsg {
+	width: 100%;
+}
+.prefix_6 .col3 label#label_email_copy {
+	width: 185px;
+}
+.prefix_6 .col3 input#contact_email_copy {
+	display: block;
+	float: left;
+}
+.prefix_6 .col3 button {
+	float: right;
+}
+#map-container{
+    background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #666666;
+	margin: auto;
+	padding: 5px;
+	width: 875px;
+}
+#map-container #map{width:875px;height:400px;margin:auto;}
+#panel{
+	max-height: 300px;
+    margin: 0 auto 20px;
+    overflow: auto;
+    width: 700px;
+}
+#destinationForm{
+	background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #C0C0C0;
+    margin: 5px auto 20px;
+    padding: 5px 20px;
+    width: 845px;
+}
+#destinationForm input[type=text]{border:solid 1px #C0C0C0;}
+.prefix_fullwidth {
+    height: auto;
+}
+.prefix_fullwidth #destinationForm #inverser{
+    height: 25px;
+    margin: 0 30px;
+    padding-top: 8px;
+    position: relative;
+    top: 8px;
+}
+.prefix_fullwidth #destinationForm #inverser img{
+    height: 25px;
+    width: 45px;
+}
+.prefix_fullwidth #destinationForm input#calculutin{
+    margin-left: 50px;
+}
