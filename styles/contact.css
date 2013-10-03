@@ -40,7 +40,10 @@
     padding: 5px 20px;
     width: 845px;
 }
-#destinationForm input[type=text]{border:solid 1px #C0C0C0;}
+#destinationForm input[type=text]{
+	border:solid 1px #C0C0C0;
+	color: #333333;
+}
 .prefix_fullwidth {
     height: auto;
 }

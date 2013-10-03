@@ -26,7 +26,7 @@ initialize = function(){
   
   var contentMarker = [
       '<div id="containerTabs">',
-      ' content marker',
+      ' Tunimarine',
       '</div>'
   ].join('');
 
