@@ -18,24 +18,16 @@
 				<div id="main">
 					<ul class="bxslider">
 						<li>
-							<div class="sildeitem" id="slideitem1">
-								<img src="/images/1.jpg" width="980" height="350" alt="Activites Tunimarine" title="Activites Tunimarine" />
-							</div>
+							<img src="/images/1.jpg" width="980" height="350" alt="Activites Tunimarine" title="Activites Tunimarine" />
 						</li>
 						<li>
-							<div class="sildeitem" id="slideite2">
-								<img src="/images/2.jpg" width="980" height="350" alt="Avantages Tunimarine" title="Avantages Tunimarine" />
-							</div>
+							<img src="/images/2.jpg" width="980" height="350" alt="Avantages Tunimarine" title="Avantages Tunimarine" />
 						</li>
 						<li>
-							<div class="sildeitem" id="slideitem3">
-								<img src="/images/3.jpg" width="980" height="350" alt="Demarche qualite" title="Demarche qualite" />
-							</div>
+							<img src="/images/3.jpg" width="980" height="350" alt="Demarche qualite" title="Demarche qualite" />
 						</li>
 						<li>
-							<div class="sildeitem" id="slideitem4">
-								<img src="/images/4.jpg" width="980" height="350" alt="Disponibilite Tunimarine" title="Disponibilite Tunimarine" />
-							</div>
+							<img src="/images/4.jpg" width="980" height="350" alt="Disponibilite Tunimarine" title="Disponibilite Tunimarine" />
 						</li>
 					</ul>
 				</div>
