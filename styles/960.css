@@ -23,7 +23,8 @@ body{min-width:960px}.container_12,.container_16
 .omega{margin-right:0}
 .container_12 .grid_1{width:60px}
 .container_12 .grid_2{width:140px}
-.container_12 .grid_4{float: right;padding-top: 15px;width: 300px;}/*Used class*/
+.container_12 .grid_4{width:240px;}/*Used class*/
+.footer_container .container_12 .grid_4{float: right;padding-top: 15px;width: 300px;}/*Used class*/
 .container_12 .grid_4_container{height:310px;}
 .container_12 .grid_5{width:380px;margin-left:20px;}
 .container_12 .grid_7{width:540px}
