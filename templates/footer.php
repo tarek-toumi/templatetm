@@ -4,12 +4,12 @@
 				<div class="grid_5">
 					<div class="col4">
 						<p>
-							<a href="/accueil">Accueil</a> <b>|</b>
-							<a href="/services">Services</a> <b>|</b>
-							<a href="/societe">Société</a> <b>|</b>
-							<a href="/galerie">Galerie</a> <b>|</b>
-							<a href="/qualite">Qualité</a> <b>|</b>
-							<a href="/contact">Contact</a>
+							<a class="linktoaccueil" href="javascript:void(0)">Accueil</a> <b>|</b>
+							<a class="linktoservices" href="javascript:void(0)">Services</a> <b>|</b>
+							<a class="linktosociete" href="javascript:void(0)">Société</a> <b>|</b>
+							<a class="linktogalerie" href="javascript:void(0)">Galerie</a> <b>|</b>
+							<a class="linktoqualite" href="javascript:void(0)">Qualité</a> <b>|</b>
+							<a class="linktocontact" href="javascript:void(0)">Contact</a>
 							<br />
 							Copyright &copy; 2013: TUNIMARINE S.U.A.R.L. Tous droits réservés.
 						</p>

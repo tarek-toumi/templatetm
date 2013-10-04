@@ -79,7 +79,7 @@
 							<h2>Nos avantages</h2>
 							<p>Le Contrôle de la Qualité interne vérifie en permanence les procédés et les produits, conformément aux procédures certifiées.</p>
 							<div class="readMore">
-								<a href="/qualite.php">Savoir plus <b>></b></a>
+								<a class="linktoqualite" href="javascript:void(0)">Savoir plus <b>></b></a>
 							</div>
 						</div>
 					</div>
@@ -93,7 +93,7 @@
 							<h2>&nbsp; Services</h2>
 							<p>Pour répondre à vos besoins, <strong>TUNIMARINE</strong> met à votre disposition ses moyens humaines, logiciels et ses moyens de productions.
 							</p>
-							<a class="linktopage" href="/services">Découvrir nos moyens &gt;</a>
+							<a class="linktoservices linktopage" href="javascript:void(0)">Découvrir nos moyens &gt;</a>
 						</div>
 					</div>
 					<div class="grid_3">
@@ -102,7 +102,7 @@
 							<h2>&nbsp; Qualité</h2>
 							<p><strong>TUNIMARINE</strong> s'est engagé dans la mise en place d'une politique d'Assurance Qualité applicable à l'ensemble de ses achats et fabrications.
 							</p>
-							<a class="linktopage" href="/qualite">Plus de détails &gt;</a>
+							<a class="linktoqualite linktopage" href="javascript:void(0)">Plus de détails &gt;</a>
 						</div>
 					</div>
 					<div class="grid_3">
@@ -111,7 +111,7 @@
 							<h2>&nbsp; Société</h2>
 							<p>Notre activité, ainsi que le réseau de nos partenaires, sont en croissance permanante.
 							</p>
-							<a class="linktopage" href="/societe">Diagramme de croissance &gt;</a>
+							<a class="linktosociete linktopage" href="javascript:void(0)">Diagramme de croissance &gt;</a>
 						</div>
 					</div>
 					<div class="grid_3">
@@ -120,7 +120,7 @@
 							<h2>&nbsp; Nos produits</h2>
 							<p>Fabrication et sous-traitancedes pièces mécaniques pour la marine et l'industrie.
 							</p>
-							<a class="linktopage" href="/galerie">Consulter notre galerie &gt;</a>
+							<a class="linktogalerie linktopage" href="javascript:void(0)">Consulter notre galerie &gt;</a>
 						</div>
 					</div>
 				</div>

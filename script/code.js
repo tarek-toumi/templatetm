@@ -1,10 +1,8 @@
 $(document).ready(function() {
-	//$('#main > ul').tabs({ fx: { height: 'fadeOut', opacity: 'toggle' } });
-	//////////////////////////////////////////
-	/*$('ul.nav li').mousedown(function() {
-	  $('ul.nav li').removeClass('selected');remove all classes from all items
-	  $(this).addClass('selected');add class for chosen item
-	  currentSlide=$('li').index(this)+1; return index
-	  updateButtons();
-	});*/
+	$('.linktoaccueil').click(function(){window.location= '/accueil';});
+	$('.linktoservices').click(function(){window.location= '/services';});
+	$('.linktosociete').click(function(){window.location= '/societe';});
+	$('.linktogalerie').click(function(){window.location= '/galerie';});
+	$('.linktoqualite').click(function(){window.location= '/qualite';});
+	$('.linktocontact').click(function(){window.location= '/contact';});
 });
