@@ -194,7 +194,7 @@ ul#menu li.notactive a.active,ul#menu li.notactive a:hover {
 	margin: 0;
 }
 
-.col2 h2,.col3 h2 {
+.col2 h2,.col3 h2, .col2 h1,.col3 h1  {
 	color: #132445;
 	font-size: 16px;
 	text-align: left;
@@ -405,4 +405,21 @@ img.image_border_presentation {
 }
 .footer_container .col4 a {
 	font-weight: normal;
+}
+.logoimage {
+    border: 1px solid #666666;
+    display: block;
+    height: auto !important;
+    margin: auto;
+    padding: 2px !important;
+    width: auto !important;
+}
+.logocontainer {
+    float: left;
+    height: 40px;
+    width: 210px;
+}
+#logoimage_ams, #logoimage_egko, #logoimage_hitchunson, 
+#logoimage_lacrorix, #logoimage_mmic, #logoimage_zodiac {
+	display: none;
 }

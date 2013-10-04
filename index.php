@@ -64,13 +64,24 @@
 					</div>
 					<div class="grid_4 grid_center">
 						<div class="col1">
-							<img src="/images/nos_clients.png" alt="image" />
+							<img id="logoimage_default" src="/images/nos_clients.png" alt="image" />
+							<img id="logoimage_ams" alt="AMS" title="AMS" src="/images/clients/logo_ams.jpg" />
+							<img id="logoimage_egko" alt="EGKO" title="EGKO" src="/images/clients/logo_egko.jpg" />
+							<img id="logoimage_hitchunson" alt="HITCHUNSON" title="HITCHUNSON" src="/images/clients/logo_hitchunson.jpg" />
+							<img id="logoimage_lacrorix" alt="LACRORIX" title="LACRORIX" src="/images/clients/logo_lacrorix.jpg" />
+							<img id="logoimage_mmic" alt="MMIC" title="MMIC" src="/images/clients/logo_mmic.jpg" />
+							<img id="logoimage_zodiac" alt="ZODIAC" title="ZODIAC" src="/images/clients/logo_zodiac.jpg" />
 							<h2>Nos clients</h2>
-							<p>
-								Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing
-								elit. Aliquam tincidunt mi id libero egestas ut interdum nibh
-								cursus.
-							</p>
+							<ul class="logocontainer">
+								<li id="logolabel_ams">Ateliers Mécaniques du Sahel (AMS)</li>
+								<li id="logolabel_egko">EGO Paris</li>
+								<li id="logolabel_hitchunson">Hitchunson</li>
+							</ul>
+							<ul class="logocontainer">
+								<li id="logolabel_lacrorix">Lacrorix</li>
+								<li id="logolabel_mmic">Métallic Manifacture International Corporation (MMIC)</li>
+								<li id="logolabel_zodiac">ZODIAC</li>
+							</ul>
 						</div>
 					</div>
 					<div class="grid_4">
@@ -90,7 +101,7 @@
 					<div class="grid_3">
 						<div class="col2">
 							<img src="/images/staff.png" align="left" alt="Nos Moyens" title="Nos Moyens" />
-							<h2>&nbsp; Services</h2>
+							<h1>&nbsp; Services</h1>
 							<p>Pour répondre à vos besoins, <strong>TUNIMARINE</strong> met à votre disposition ses moyens humaines, logiciels et ses moyens de productions.
 							</p>
 							<a class="linktoservices linktopage" href="javascript:void(0)">Découvrir nos moyens &gt;</a>
@@ -99,7 +110,7 @@
 					<div class="grid_3">
 						<div class="col2">
 							<img src="/images/qualite.png" align="left" alt="Démarche qualité" title="Démarche qualité" />
-							<h2>&nbsp; Qualité</h2>
+							<h1>&nbsp; Qualité</h1>
 							<p><strong>TUNIMARINE</strong> s'est engagé dans la mise en place d'une politique d'Assurance Qualité applicable à l'ensemble de ses achats et fabrications.
 							</p>
 							<a class="linktoqualite linktopage" href="javascript:void(0)">Plus de détails &gt;</a>
@@ -108,7 +119,7 @@
 					<div class="grid_3">
 						<div class="col2">
 							<img src="/images/croissance.png" align="left" alt="Croissance de l'activité" title="Croissance de l'activité" />
-							<h2>&nbsp; Société</h2>
+							<h1>&nbsp; Société</h1>
 							<p>Notre activité, ainsi que le réseau de nos partenaires, sont en croissance permanante.
 							</p>
 							<a class="linktosociete linktopage" href="javascript:void(0)">Diagramme de croissance &gt;</a>
@@ -117,7 +128,7 @@
 					<div class="grid_3">
 						<div class="col2">
 							<img src="/images/produits.png" align="left" alt="Nos produits" title="Nos produits" />
-							<h2>&nbsp; Nos produits</h2>
+							<h1>&nbsp; Nos produits</h1>
 							<p>Fabrication et sous-traitancedes pièces mécaniques pour la marine et l'industrie.
 							</p>
 							<a class="linktogalerie linktopage" href="javascript:void(0)">Consulter notre galerie &gt;</a>
@@ -128,7 +139,7 @@
 				<div class="prefix_6">
 					<div class="grid_5">
 						<div class="col3">
-							<h2>Présentation</h2>
+							<h1>Présentation</h1>
 							<p><strong>TUNIMARINE</strong> est une Société totalement exportatrice. 
 							Son domaine d'application est la fabrication des pièces mécaniques pour la 
 							marine, l'aéronautique et l'industrie. <br> Fraisage, tournage, découpage, 
