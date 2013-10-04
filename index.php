@@ -1,3 +1,12 @@
+<?php 
+	/* Forcage de la bonne url */
+	$token = explode('?', $_SERVER['REQUEST_URI']);
+	if ($token[0] != '/accueil') {
+		header('HTTP/1.0 301 Moved Permanently');
+		header('Location: /accueil');
+		die();
+	}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" charset="UTF-8">
 	<head>

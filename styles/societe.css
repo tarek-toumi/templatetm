@@ -29,3 +29,55 @@ h2.rotate {
 	-ms-transform: rotate(-45deg); /* IE 9 */
 	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
 }
+#diagram-container {
+    background: url("/images/graph.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 400px;
+    margin: auto;
+    width: 700px;
+}
+#diagram-container .step-container {
+    height: 80px;
+    width: 430px;
+    position: absolute;
+}
+#diagram-container .step-container .year-content {
+    background: url("/images/fleche-annee.png") no-repeat scroll 0 12px rgba(0, 0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    padding-left: 10px;
+    width: 78px;
+    float: left;
+}
+#diagram-container .step-container .label-content {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    font-weight: bold;
+    height: 14px;
+    margin-left: 9px;
+    margin-top: 40px;
+    padding: 0 5px 5px;
+    width: 300px;
+}
+#diagram-container #step-2013{
+	padding: 52px 0 0 350px;
+}
+#diagram-container #step-2012{
+	padding: 85px 0 0 250px;
+}
+#diagram-container #step-2011{
+	padding: 117px 0 0 173px;
+}
+#diagram-container #step-2010{
+	padding: 153px 0 0 107px;
+}
+#diagram-container #step-2009{
+	padding: 192px 0 0 50px;
+}
+#diagram-container #step-2008{
+	padding: 230px 0 0 7px;
+}
+.container_12 .grid_5 {
+    width: 100%;
+}

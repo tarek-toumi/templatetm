@@ -21,7 +21,6 @@ initialize = function(){
     position : latLng,
     map      : map,
     title    : "Tunimarine"
-    //icon     : "marker_lille.gif" // Chemin de l'image du marqueur pour surcharger celui par défaut
   });
   
   var contentMarker = [
@@ -56,7 +55,6 @@ calculate = function(){
         var request = {
             origin      : origin,
             destination : destination,
-            language 	: 'fr',
             travelMode  : google.maps.DirectionsTravelMode.DRIVING // Mode de conduite
         }
         var directionsService = new google.maps.DirectionsService(); // Service de calcul d'itinéraire
@@ -81,6 +79,49 @@ $(document).ready(function() {
 			$('#destination').removeAttr('disabled');
 			$('#origin').attr('disabled', 'disabled');
 		}
+	});
+	
+	/* Form Validator */
+	var formvalidator = $('#contact-form').validate({
+		rules: {
+			nom: {
+				required: true
+			},
+			email: {
+				required: true,
+				email: true
+			},
+			subject: {
+				required: true
+			},
+			message: {
+				required: true
+			}
+		},
+		messages: {
+			nom: "",
+			email: "",
+			subject: "",
+			message: ""
+		}
+	});
+	$('#contact-form').submit(function(){
+		if (formvalidator.valid()) {
+			var ctcmail = $('input#contact_email').val();
+			var ctcnom = $('input#contact_name').val();
+			var ctcobjet = $('input#contact_subject').val();
+			var ctcmessage = $('textarea#contact_text').val();
+			var ctccopy = $('input#contact_email_copy').is(':checked');
+			$.post( "/outils/mail.php", {mail: ctcmail, nom: ctcnom, objet: ctcobjet, message: ctcmessage, copy: ctccopy},
+					function( data ) {
+					  if (data == 'Ok') {
+						  $('.validmail').show();
+					  } else {
+						  $('.errormail').show();
+					  }
+				});
+		}
+		return false;
 	});
 });
 

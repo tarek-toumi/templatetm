@@ -1,3 +1,12 @@
+<?php 
+	/* Forcage de la bonne url */
+	$token = explode('?', $_SERVER['REQUEST_URI']);
+	if ($token[0] != '/societe') {
+		header('HTTP/1.0 301 Moved Permanently');
+		header('Location: /societe');
+		die();
+	}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" charset="UTF-8">
 	<head>
@@ -17,30 +26,32 @@
 				<div class="prefix_full_width">
 					<div class="grid_5">
 						<div class="col3">
-							<h2 class="rotate">Croissance de l'activité de TUNIMARINE</h2>
-							<div class="histogram_item" style="margin-left: 500px;">
-								<span class="histogram_year">2013</span>
-								<span class="histogram_label toolongtext">Mise en place de la démarche assurance qualité</span>
+							<h2>Croissance de l'activité de TUNIMARINE</h2>
+						</div>
+						<div id="diagram-container">
+							<div class="step-container" id="step-2013">
+								<div class="year-content">2013</div>
+								<div class="label-content">Mise en place de la démarche assurance qualité</div>
 							</div>
-							<div class="histogram_item" style="margin-left: 400px;">
-								<span class="histogram_year">2012</span>
-								<span class="histogram_label">Nouvelle implantation</span>
+							<div class="step-container" id="step-2012">
+								<div class="year-content">2012</div>
+								<div class="label-content">Nouvelle implantation</div>
 							</div>
-							<div class="histogram_item" style="margin-left: 300px;">
-								<span class="histogram_year">2011</span>
-								<span class="histogram_label">Ajout de l'activité de fonderie</span>
+							<div class="step-container" id="step-2011">
+								<div class="year-content">2011</div>
+								<div class="label-content">Ajout de l'activité de fonderie</div>
 							</div>
-							<div class="histogram_item" style="margin-left: 200px;">
-								<span class="histogram_year">2010</span>
-								<span class="histogram_label">Mécanique / Usinage</span>
+							<div class="step-container" id="step-2010">
+								<div class="year-content">2010</div>
+								<div class="label-content">Mécanique / Usinage</div>
 							</div>
-							<div class="histogram_item" style="margin-left: 100px;">
-								<span class="histogram_year">2009</span>
-								<span class="histogram_label toolongtext">Entrée en production : mécanique</span>
+							<div class="step-container" id="step-2009">
+								<div class="year-content">2009</div>
+								<div class="label-content">Entrée en production : mécanique</div>
 							</div>
-							<div class="histogram_item">
-								<span class="histogram_year">2008</span>
-								<span class="histogram_label">Création</span>
+							<div class="step-container" id="step-2008">
+								<div class="year-content">2008</div>
+								<div class="label-content">Création</div>
 							</div>
 						</div>
 					</div>

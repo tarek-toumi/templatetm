@@ -18,7 +18,23 @@
 }
 .prefix_6 .col3 button {
 	float: right;
+	margin-right: 24px;
 }
+.prefix_6 .col3 label.error{
+	background: url(/images/error.png) no-repeat scroll 0 5px rgba(0, 0, 0, 0);
+    display: block;
+    float: right;
+    height: 24px;
+    width: 110px;
+}   
+.prefix_6 .col3.textareacontainer label.error{
+    width: 16px;
+}   
+.prefix_6 .col3 input.error, .prefix_6 .col3 textarea.error{
+    border: 1px solid #AA2222;
+    color: #AA2222;
+    padding: 2px;
+}   
 #map-container{
     background: none repeat scroll 0 0 #FFFFFF;
 	border: 1px solid #666666;
@@ -60,4 +76,20 @@
 }
 .prefix_fullwidth #destinationForm input#calculutin{
     margin-left: 50px;
+}
+.validmail {
+	text-align: center;
+	font-size: 14px;
+	font-family: arial;
+	color: #009900;
+	font-weight: bold;
+	display: none;
+}
+.errormail {
+	text-align: center;
+	font-size: 14px;
+	font-family: arial;
+	color: #990000;
+	font-weight: bold;
+	display: none;
 }

@@ -1,3 +1,12 @@
+<?php 
+	/* Forcage de la bonne url */
+	$token = explode('?', $_SERVER['REQUEST_URI']);
+	if ($token[0] != '/contact') {
+		header('HTTP/1.0 301 Moved Permanently');
+		header('Location: /contact');
+		die();
+	}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" charset="UTF-8">
 	<head>
@@ -6,6 +15,7 @@
 		<link type="text/css" href="styles/services.css" rel="stylesheet" media="all" />
 		<link type="text/css" href="styles/contact.css" rel="stylesheet" media="all" />
     	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=fr-FR"></script>
+    	<script type="text/javascript" src="/script/jquery.validate.js"></script>
     	<script type="text/javascript" src="/script/contact.js"></script>
 	</head>
 	
@@ -41,27 +51,37 @@
 						<div class="col3">
 							<h2>Nous envoyer un mail</h2>
 						</div>
-						<div class="col3 contact_item">
-							<label id="name_textmsg" for="contact_name">Votre nom: </label>
-							<input type="text" value="" size="30" id="contact_name" name="nom" class="inputbox">
+						<form id="contact-form" action="" method="get">
+							<div class="col3 contact_item">
+								<label id="name_textmsg" for="contact_name">Votre nom: </label>
+								<input type="text" value="" size="30" id="contact_name" name="nom" class="inputbox">
+							</div>
+							<div class="col3 contact_item">
+								<label for="contact_email" id="email_textmsg">Votre e-mail: </label>
+								<input type="text" value="" size="30" id="contact_email" name="email" class="inputbox required validate-email">
+							</div>
+							<div class="col3 contact_item">
+								<label for="contact_subject" id="subject_textmsg">Objet: </label>
+								<input type="text" value="" size="30" id="contact_subject" name="subject" class="inputbox">
+							</div>
+							<div class="col3 contact_item textareacontainer">
+	                            <label for="contact_text" id="contact_textmsg">Saisissez votre message:</label>
+	                            <br>
+	                            <textarea rows="8" cols="47" id="contact_text" name="message" class="inputbox required"></textarea>
+							</div>
+							<div class="col3 contact_item">
+	                    		<input type="checkbox" id="contact_email_copy" name="email_copy">
+	                    		<label for="contact_email_copy" id="label_email_copy">Recevoir une copie</label>
+	                    		<button type="submit" id="contact-button" class="button validate">Envoyer</button>
+							</div>
+						</form>
+						<div class="validmail">
+							Votre mail a bien été envoyé.
 						</div>
-						<div class="col3 contact_item">
-							<label for="contact_email" id="email_textmsg">Votre e-mail: </label>
-							<input type="text" value="" size="30" id="contact_email" name="email" class="inputbox required validate-email">
-						</div>
-						<div class="col3 contact_item">
-							<label for="contact_subject" id="subject_textmsg">Objet: </label>
-							<input type="text" value="" size="30" id="contact_subject" name="subject" class="inputbox">
-						</div>
-						<div class="col3 contact_item">
-                            <label for="contact_text" id="contact_textmsg">Saisissez votre message:</label>
-                            <br>
-                            <textarea rows="8" cols="50" id="contact_text" name="message" class="inputbox required"></textarea>
-						</div>
-						<div class="col3 contact_item">
-                    		<input type="checkbox" value="1" id="contact_email_copy" name="email_copy">
-                    		<label for="contact_email_copy" id="label_email_copy">Recevoir une copie</label>
-                    		<button type="submit" class="button validate">Envoyer</button>
+						<div class="errormail">
+							Votre mail n'a pas été envoyé.
+							<br />
+							Veuillez essayer plus tard.
 						</div>
 					</div>
 				</div>
@@ -78,10 +98,10 @@
 						    <div id="destinationForm">
 					            <form action="" method="get" name="direction" id="direction">
 					                <label>Point de départ :</label>
-					                <input type="text" name="origin" id="origin" value="Tunimarine" disabled="disabled">
+					                <input type="text" name="origin" id="origin">
 					                <a href="javascript:void(0)" id="inverser"><img alt="Inverser" title="Inverser" src="/images/double-fleche.png" /></a>
 					                <label>Destination :</label>
-					                <input type="text" name="destination" id="destination">
+					                <input type="text" name="destination" id="destination" value="Tunimarine" disabled="disabled">
 					                <input id="calculutin" type="button" value="Calculer l'itinéraire" onclick="javascript:calculate()">
 					            </form>
 					        </div>
