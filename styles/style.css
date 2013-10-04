@@ -46,6 +46,7 @@ a {
 	background: #565f81;
 	overflow: hidden;
 	color: #bebebe;
+	height: 70px;
 }
 /*============================================================*/
 ul#menu {
@@ -401,4 +402,7 @@ img.image_border_presentation {
 .container_12 .grid_4.grid_center .col1 img {
     height: 121px;
     width: 440px;
+}
+.footer_container .col4 a {
+	font-weight: normal;
 }

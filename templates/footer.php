@@ -4,32 +4,32 @@
 				<div class="grid_5">
 					<div class="col4">
 						<p>
-							<a href="www.land-of-web.com">Home</a> <b>|</b> <a
-								href="www.land-of-web.com">Services</a> <b>|</b> <a
-								href="www.land-of-web.com">Portfolio</a> <b>|</b> <a
-								href="www.land-of-web.com">Testimonial</a> <b>|</b> <a
-								href="www.land-of-web.com">Blog</a> <b>|</b> <a
-								href="www.land-of-web.com">Contact Us</a> <br /> 2010 WebCorp
-							LLC | Terms of service | Privacy policy <br /> Icons courtesy
-							iconfinder.com | Psd template graphicsfuel.com <br /> Made by <a
-								href="www.land-of-web.com">www.land-of-web.com</a> <br />
+							<a href="/accueil">Accueil</a> <b>|</b>
+							<a href="/services">Services</a> <b>|</b>
+							<a href="/societe">Société</a> <b>|</b>
+							<a href="/galerie">Galerie</a> <b>|</b>
+							<a href="/qualite">Qualité</a> <b>|</b>
+							<a href="/contact">Contact</a>
+							<br />
+							Copyright &copy; 2013: TUNIMARINE S.U.A.R.L. Tous droits réservés.
 						</p>
 					</div>
 				</div>
 				<div class="prefix_6">
 					<div class="grid_4">
-						<div class="connect">Connect with us:</div>
-					</div>
-					<div class="grid_4">
-						<div class="social">
-							<a href="www.twitter.com/Nataly_Birch"><img
-								src="images/twitter.png" alt="twitter" /></a> &nbsp <a
-								href="www.facebook.com/NatalyBirch"><img
-								src="images/facebook.png" alt="facebook" /></a> &nbsp <a
-								href="www.in.com/Nataly_Birch"><img src="images/in.png"
-								alt="in" /></a> &nbsp <a href="www.rssfeed.com/land-of-web"><img
-								src="images/email.png" alt="email" /></a>
+						<!-- AddThis Button BEGIN -->
+						<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+							<a class="addthis_button_facebook"></a>
+							<a class="addthis_button_twitter"></a>
+							<a class="addthis_button_google_plusone_share"></a>
+							<a class="addthis_button_linkedin"></a>
+							<a class="addthis_button_email"></a>
+							<a class="addthis_button_compact"></a>
+							<a class="addthis_counter addthis_bubble_style"></a>
 						</div>
+						<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+						<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e4e5dbe1c847dce"></script>
+						<!-- AddThis Button END -->
 					</div>
 				</div>
 			</div>
